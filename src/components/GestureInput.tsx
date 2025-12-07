@@ -243,7 +243,7 @@ const GestureInput: React.FC = () => {
             // Dwell Click (Hover)
             else {
               dwellTimerRef.current += delta;
-              const DWELL_THRESHOLD = 1.2; // 增加到 1.2 秒，防止误触
+              const DWELL_THRESHOLD = 1.0; // 增加到 1.2 秒，防止误触
               const progress = Math.min(dwellTimerRef.current / DWELL_THRESHOLD, 1.0);
               setHoverProgress(progress);
 
