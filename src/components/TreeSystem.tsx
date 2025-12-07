@@ -189,16 +189,16 @@ const TreeSystem: React.FC = () => {
     for (let i = 0; i < lightCount; i++) { const i3 = i * 3; const t = i / lightCount; const h = t * 13; const coneRadius = (14 - h) * 0.48; const angle = t * Math.PI * 25; lightTree[i3] = Math.cos(angle) * coneRadius; lightTree[i3 + 1] = h - 6; lightTree[i3 + 2] = Math.sin(angle) * coneRadius; }
 
     // 实际存在的照片文件列表
-    const photoFiles = [
-  "2025_12-01.jpeg",
-  "2025_12-02.jpeg",
-  "2025_12-03.jpeg",
-  "2025_12-04.jpeg",
-  "2025_12-05.jpeg",
-  "2025_12-06.jpeg",
-  "2025_12-07.jpeg",
-  "2025_12-08.jpeg",
-  "2025_12-09.jpeg",
+const photoFiles = [
+  "2025_12_01.jpg",
+  "2025_12_02.jpg",
+  "2025_12_03.jpg",
+  "2025_12_04.jpg",
+  "2025_12_05.jpg",
+  "2025_12_06.jpg",
+  "2025_12_07.jpg",
+  "2025_12_08.jpg",
+  "2025_12_09.jpg",
 ];
 
 
